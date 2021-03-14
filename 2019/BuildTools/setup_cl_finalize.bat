@@ -1,11 +1,11 @@
 @ECHO OFF
 
-REM "If VisualStudioVersion is defined, we can assume a stale setup of vcvarsall.bat is in place, or our setup_cl_common.bat was successful."
+:: If VisualStudioVersion is defined, we can assume a stale setup of vcvarsall.bat is in place, or our setup_cl_common.bat was successful.
 IF NOT DEFINED VisualStudioVersion GOTO :EOF
-REM "If VisualStudioVersion is not 16.0, we have incorrect toolchain information."
+:: If VisualStudioVersion is not 16.0, we have incorrect toolchain information.
 IF NOT "%VisualStudioVersion%" == "16.0" GOTO :EOF
 
-REM "Stop file execution in the event that setup_cl_common.bat hasn't been ran."
+:: Stop file execution in the event that setup_cl_common.bat hasn't been ran.
 IF NOT DEFINED __VSCMD_AGGREGATE_PATH GOTO :EOF
 
 SET VSCMD_ARG_HOST_ARCH=%Platform%

@@ -1,6 +1,6 @@
 @ECHO OFF
 
-REM "We don't want this file called directly, so we'll check to see that Platform is defined."
+:: We don't want this file called directly, so we'll check to see that Platform is defined.
 IF NOT DEFINED Platform GOTO :EOF
 IF /i NOT "%Platform%" == "x64" IF /i NOT "%Platform%" == "x86" GOTO :EOF
 
