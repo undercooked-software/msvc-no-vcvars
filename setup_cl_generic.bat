@@ -5,7 +5,7 @@ SET "LIB="
 :: SET VC_PATH=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community
 :: SET VC_PATH=C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional
 
-:: I mainly work in a command-line environment nowadays, so I only SET this up to utilize the build tools version of VS2019.
+:: I mainly work in a command-line environment nowadays, so I only configured this to utilize the build tools version of VS2019.
 SET VC_PATH=C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools
 IF NOT DEFINED LIB (
   IF EXIST "%VC_PATH%" (

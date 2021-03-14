@@ -1,13 +1,20 @@
 @ECHO OFF
 SETLOCAL
-
-:: Our setup_cl_generic.bat happens to be in the directory above the test dir.
-:: Optimally it should be added to PATH somehow for proper use, or bundled with projects (bin directory).
-PUSHD "../"
-CALL "setup_cl_generic.bat" x64
-POPD
-
-:: Your MSVC compilation process here
-CL
-
+  REM Normalize and return the fully qualified path of the novcvars directory.
+  CALL :NORMALIZEPATH "C:\dev_tools\bin\msvc-no-vcvars"
+  
+  REM Run our setup locally at the returned path and then return to CWD.
+  PUSHD %RETVAL%
+    CALL "setup_cl_generic.bat" x64
+  POPD
+  
+  REM Provide your MSVC compilation process below.
+  CL
 ENDLOCAL
+
+:: ========== FUNCTIONS ==========
+EXIT /B
+
+:NORMALIZEPATH
+  SET RETVAL=%~f1
+  EXIT /B
