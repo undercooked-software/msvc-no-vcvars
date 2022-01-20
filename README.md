@@ -5,7 +5,8 @@ The most important part to know is that avoiding having to invoke these files ev
 
 ## What MSVC compiler toolsets does this support?
 As of right now, this project supports the following:
-  * [MSVC v142 - VS 2019 C++ x64/x86 Build Tools](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019)
+  * MSVC v142 - VS 2019 C++ x64/x86 Build Tools
+  * [MSVC v143 - VS 2022 C++ x64/x86 Build Tools](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2022)
 
 ## How do I use this? 
 This project is built as a CLI supplement, so it's assumed you're using it in parallel with such a process. All you have to do is invoke the batch script prior to whatever your compilation process is. Please reference the `build_example.bat` file within the `tests` directory for an example of how to use it.
