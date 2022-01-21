@@ -11,8 +11,8 @@ IF NOT DEFINED __VSCMD_AGGREGATE_PATH GOTO :EOF
 SET VSCMD_ARG_HOST_ARCH=%Platform%
 SET VSCMD_ARG_TGT_ARCH=%Platform%
 
-SET LIB=C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.25.28610\lib\%Platform%;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\lib\um\%Platform%;C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\ucrt\%Platform%;C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\%Platform%;
+SET LIB=C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\lib\%Platform%;C:\Program Files (x86)\Windows Kits\10\lib\10.0.20348.0\ucrt\%Platform%;C:\Program Files (x86)\Windows Kits\10\lib\10.0.20348.0\um\%Platform%
 
-SET LIBPATH=%LIBPATH%C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.25.28610\lib\%Platform%;
+SET LIBPATH=%LIBPATH%C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.29.30133\lib\%Platform%;%FrameworkDir%v4.0.30319
 
-SET Path=C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.25.28610\bin\Host%Platform%\%Platform%;C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\%Platform%;C:\Program Files (x86)\Windows Kits\10\bin\%Platform%;%__VSCMD_AGGREGATE_PATH%
+SET Path=C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\Host%Platform%\%Platform%;C:\Program Files (x86)\Windows Kits\10\bin\10.0.20348.0\%Platform%;C:\Program Files (x86)\Windows Kits\10\bin\%Platform%;%__VSCMD_AGGREGATE_PATH%
