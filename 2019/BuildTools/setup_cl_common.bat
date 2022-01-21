@@ -29,7 +29,7 @@ SET VisualStudioVersion=16.0
 
 SET VS160COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\Tools\
 SET VSCMD_ARG_app_plat=Desktop
-SET VSCMD_VER=16.11.7
+SET VSCMD_VER=16.11.9
 SET VSINSTALLDIR=C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\
 
 SET WindowsLibPath=C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.20348.0;C:\Program Files (x86)\Windows Kits\10\References\10.0.20348.0

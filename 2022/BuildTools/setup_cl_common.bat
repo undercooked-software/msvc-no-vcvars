@@ -29,7 +29,7 @@ SET VisualStudioVersion=17.0
 
 SET VS170COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\Tools\
 SET VSCMD_ARG_app_plat=Desktop
-SET VSCMD_VER=17.0.2
+SET VSCMD_VER=17.0.5
 SET VSINSTALLDIR=C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\
 
 SET WindowsLibPath=C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.20348.0;C:\Program Files (x86)\Windows Kits\10\References\10.0.20348.0
