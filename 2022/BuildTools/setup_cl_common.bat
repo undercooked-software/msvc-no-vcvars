@@ -19,7 +19,6 @@ SET __VSCMD_AGGREGATE_PATH=C:\Program Files (x86)\Microsoft Visual Studio\2022\B
 SET UCRTVersion=10.0.20348.0
 SET UniversalCRTSdkDir=C:\Program Files (x86)\Windows Kits\10\
 
-SET VCIDEInstallDir=C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\VC\
 SET VCINSTALLDIR=C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\
 SET VCToolsInstallDir=C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.30.30705\
 SET VCToolsRedistDir=C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Redist\MSVC\14.30.30704\
