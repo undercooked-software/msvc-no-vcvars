@@ -13,6 +13,6 @@ SET VSCMD_ARG_TGT_ARCH=%Platform%
 
 SET LIB=C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\lib\%Platform%;C:\Program Files (x86)\Windows Kits\10\lib\10.0.20348.0\ucrt\%Platform%;C:\Program Files (x86)\Windows Kits\10\lib\10.0.20348.0\um\%Platform%
 
-SET LIBPATH=%LIBPATH%C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.29.30133\lib\%Platform%;%FrameworkDir%v4.0.30319
+SET LIBPATH=%LIBPATH%C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\lib\%Platform%;%FrameworkDir%v4.0.30319
 
 SET Path=C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\Host%Platform%\%Platform%;C:\Program Files (x86)\Windows Kits\10\bin\10.0.20348.0\%Platform%;C:\Program Files (x86)\Windows Kits\10\bin\%Platform%;%__VSCMD_AGGREGATE_PATH%
