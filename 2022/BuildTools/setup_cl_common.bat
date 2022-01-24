@@ -7,7 +7,6 @@ IF /i NOT "%Platform%" == "x64" IF /i NOT "%Platform%" == "x86" GOTO :EOF
 SET DevEnvDir=C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\
 SET ExtensionSdkDir=C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs
 SET Framework40Version=v4.0
-SET FrameworkDir=C:\Windows\Microsoft.NET\Framework\
 SET FrameworkVersion=v4.0.30319
 
 SET INCLUDE=C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.30.30705\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\winrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\cppwinrt
