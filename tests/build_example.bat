@@ -1,7 +1,7 @@
 @ECHO OFF
 SETLOCAL
   REM Normalize and return the fully qualified path of the novcvars directory.
-  CALL :NORMALIZEPATH "C:\dev_tools\bin\msvc-no-vcvars"
+  CALL :NORMALIZEPATH "C:\dev-tools\bin\msvc-no-vcvars"
   
   REM Run our setup locally at the returned path and then return to CWD.
   PUSHD %RETVAL%
